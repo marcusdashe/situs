@@ -42,11 +42,11 @@ export default function Home() {
                 in React.js/Next.js, Springboot Web Services and Mobile App
                 development with Jetpack Compose or Flutter.
               </p>
-              <div className="flex items-center self-start mt-2">
+              <div className="outline flex items-center self-start mt-2">
                 <Link
                   href="/MarcusDasheResume.pdf"
                   target={"_blank"}
-                  className="flex items-center bg-primaryDark text-white p-2 mr-7 rounded-lg text-lg font-semibold hover:bg-light hover:text-primaryDark duration-500 border-2 border-solid border-transparent hover:border-primaryDark"
+                  className="flex items-center justify-between bg-primaryDark text-white p-2 mx-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-primaryDark duration-500 border-2 border-solid border-transparent hover:border-primaryDark"
                   download={true}
                 >
                   Resume <LinkArrow className={"w-6 ml-1"} />

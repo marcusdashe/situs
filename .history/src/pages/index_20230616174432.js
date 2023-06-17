@@ -7,8 +7,6 @@ import profilePic from "../../public/images/profile/developer-pic-4.png";
 import AnimatedText from "../components/AnimatedText";
 import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
-import profilePic1 from "../../public/images/profile/developer-pic-1.png";
-import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -42,11 +40,11 @@ export default function Home() {
                 in React.js/Next.js, Springboot Web Services and Mobile App
                 development with Jetpack Compose or Flutter.
               </p>
-              <div className="flex items-center self-start mt-2">
+              <div className=" flex items-center self-start mt-2">
                 <Link
                   href="/MarcusDasheResume.pdf"
                   target={"_blank"}
-                  className="flex items-center bg-primaryDark text-white p-2 mr-7 rounded-lg text-lg font-semibold hover:bg-light hover:text-primaryDark duration-500 border-2 border-solid border-transparent hover:border-primaryDark"
+                  className="flex items-center bg-primaryDark text-white p-2 mx-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-primaryDark duration-500 border-2 border-solid border-transparent hover:border-primaryDark"
                   download={true}
                 >
                   Resume <LinkArrow className={"w-6 ml-1"} />
@@ -63,9 +61,6 @@ export default function Home() {
           </div>
         </Layout>
         <HireMe />
-        <div className="absolute right-8 bottom-8 inline-block w-24">
-          <Image src={lightBulb} alt="Hydra Lab" className="w-full h-auto" />
-        </div>
       </main>
     </>
   );
