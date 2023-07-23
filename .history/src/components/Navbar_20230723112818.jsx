@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <header
       className="w-full px-32 py-8 font-medium 
-            flex items-center justify-between sticky top-0 z-10 bg-white"
+            flex items-center justify-between outline sticky top-0 z-10"
     >
       <nav>
         <CustomLink href="/" title="Home" className="mr-4" />
